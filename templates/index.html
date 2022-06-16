@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>100 Pieces of Art</title>
+</head>
+<link rel="stylesheet" href="/static/mystyle.css">
+<body>
+    <h1 id="rcorners2">100 Pieces of Art</h1>
+    {% for dictionary in data %}
+        <h2>{{ data[dictionary]['title'] }}</h2>
+        <p>{{ data[dictionary]['tombstone'] }}</p>
+        {% for dict in data[dictionary]['creator(s)'] %}
+            {% if dict['role'] != 'Null' %}
+                <h4>{{ dict['role'] }}: {{ dict['description'] }}</h4>
+            {% else %}
+                <h4>Unknown role: {{ dict['description'] }}</h4>
+            {% endif %}
+        {% endfor %}
+        <div class="cat">
+            <img src="/static/images/{{ data[dictionary]['accession number'] }}_reduced.jpg" alt={{ data[dictionary]['title'] }}>
+        </div>
+        <p><b>Accession Number</b>: {{ data[dictionary]['accession number'] }}</p>
+        <p><b>Department:</b> {{ data[dictionary]['department name'] }}</p>
+      {% endfor %}
+</body>
+</html>
