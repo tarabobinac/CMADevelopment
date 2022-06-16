@@ -24,4 +24,4 @@ To set everything up (downloading Python, downloading Atom, etc.) and to familia
 
 The more difficult part was the front-end. I must have spent a couple of hours just reading documentation/watching tutorials. The actual HTML (and to a lesser extent the CSS) coding took me around 4 hours as well. Though the code is not very long, I was not yet well adjusted and it took some time to fix the (many!) syntactical issues to get my code working.
 
-Coding wise, this test took me about 8 hours to complete. Factoring set up and research, around 11-12.
+Coding wise, this test took me about 8 hours to complete. Factoring in set up and research, around 11-12.
