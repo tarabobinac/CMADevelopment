@@ -1,0 +1,46 @@
+body {
+  background-color: #f8f8ff;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #cdc1c6;
+  padding: 20px;
+}
+
+h1 {
+  color: #321D1D;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  margin-left: 20px;
+  font-family: "Helvetica";
+  text-decoration: underline;
+}
+
+h4 {
+  color: #454545;
+  margin-left: 20px;
+  font-family: "Helvetica";
+}
+
+p {
+  color: #454545;
+  margin-left: 20px;
+  font-family: "Helvetica";
+}
+
+img {
+ margin-left: 20px;
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+}
+
+.cat {
+    width:350px;
+    height: auto;
+}
